@@ -1,0 +1,34 @@
+{
+    "manifest_version":2,
+    "name":"AD-killing-Leader",
+    "description":"best killer on ad",
+    "version":"1.0.0",
+    "icons":{
+        "16":"image/toothpaste.png",
+        "128":"image/logo128.png"
+        
+    },
+    "browser_action":{
+        "default_icon":"image/toothpaste.png",
+        "default_popup":"popup.html"
+    },
+    "permissions":[
+        "activeTab",
+        "contextMenus",
+        "tabs",
+        "storage"
+    ],
+    "background":{
+        "scripts":["back.js"]
+        ,
+        "persistent":true
+    },
+    "content_scripts":[
+        {
+            "all_frames":true,
+            "matches":["<all_urls>"],
+            "js":["content.js"]
+        }
+    ]
+
+}

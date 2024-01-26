@@ -1,0 +1,19 @@
+傳輸訊息
+https://ithelp.ithome.com.tw/articles/10187744
+右鍵
+https://ithelp.ithome.com.tw/articles/10187476
+Option page
+https://ithelp.ithome.com.tw/articles/10188720
+存數據
+localStorage 
+web傳web
+http://www.tsnien.idv.tw/MySQL_WebBook/chap5/5-1%20HTML%20%E7%B6%B2%E9%A0%81%E9%96%93%E5%82%B3%E9%81%9E.html
+
+com、gov、edu、net、org
+
+openOptionsPage
+
+陣列方法 splice
+
+C 提高效能寫法
+https://www.itread01.com/content/1549260577.html

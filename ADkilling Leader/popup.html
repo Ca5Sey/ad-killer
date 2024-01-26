@@ -1,0 +1,576 @@
+<html>
+
+<head>
+<title>Ad Killing Leader</title>
+<style type = "text/css">
+    /**/
+    /*===========background image==========*/
+.back {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -999;
+}
+.back img {
+    min-height: 100%;
+    width: 100%;
+}
+    /*=====================body volume=================*/
+
+body {  
+    width:339px;
+    height:440px;
+}
+/*=====================skull whisper========================*/
+.skull img {
+    min-height: 50%;
+    width: 120%;
+}
+.skull{
+    position: fixed;
+    top: 3px;
+    left: 3px;
+    bottom: 0;
+    right: 0;
+    z-index: -999; 
+}
+/*=====================frame=======================*/
+.frame {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -999;
+}
+.frame img {
+    min-height: 100%;
+    width: 100%;
+}
+    .teeth{
+        width:50px;
+        text-align: center;
+        color:black;
+        font-size:3em;
+        position:fixed;
+        left:250px;
+        top:197px;
+    }
+    .teeth:hover .ka{
+        display:block;
+    }
+    .ka{
+        display:none;
+        writing-mode: vertical-lr;
+        background-color:none;
+        position:fixed;
+        color: red;
+        top:150px;
+        left:0px;
+    }
+    .tooth{
+        width:50px;
+        text-align: center;
+        color:black;
+        font-size:3em;
+        position:fixed;
+        left:150px;
+        top:161px;
+    }
+    .tooth:hover .try{
+        display:block;
+    }
+    .try{
+        display:none;
+        writing-mode: vertical-lr;
+        background-color:none;
+        position:fixed;
+        color: red;
+        top:150px;
+        left:0px;
+    }
+    .power-off{
+        width:50px;
+        text-align: center;
+        color: rgb(131, 7, 7);
+        font-size:3em;
+        position:fixed;
+        left:98px;
+        top:274px;
+    }
+    .power-off:hover .hover{
+        display:block;
+    }
+    .hover{
+        display:none;
+        writing-mode: vertical-lr;
+        background-color:none;
+        position:fixed;
+        top:150px;
+        left:0px;
+    }
+    .add:hover .dis{
+        display:block;
+    }
+    .dis{
+        display:none;
+        color: rgb(131, 7, 7);
+        writing-mode: vertical-lr;
+        background-color:none;
+        font-size:3em;
+        position:fixed;
+        top:150px;
+        left:0px;
+    }
+    .cancel:hover .cal{
+        display:block;
+    }
+    .cal{
+        display:none;
+        color: rgb(131, 7, 7);
+        writing-mode: vertical-lr;
+        background-color:none;
+        font-size:3em;
+        position:fixed;
+        top:150px;
+        left:0px;
+    }
+    .reel:hover .rel{
+        display:block;
+    }
+    .rel{
+        display:none;
+        color: rgb(131, 7, 7);
+        writing-mode: vertical-lr;
+        background-color:none;
+        font-size:3em;
+        position:fixed;
+        top:150px;
+        left:0px;
+    }
+    .reel:hover .rel{
+        display:block;
+    }
+    .rel{
+        display:none;
+        color: rgb(131, 7, 7);
+        writing-mode: vertical-lr;
+        background-color:none;
+        font-size:3em;
+        position:fixed;
+        top:150px;
+        left:0px;
+    }
+    .topic:hover .tic{
+        display:block;
+    }
+    .tic{
+        display:none;
+        color: rgb(131, 7, 7);
+        writing-mode: vertical-lr;
+        background-color:none;
+        font-size:3em;
+        position:fixed;
+        top:160px;
+        left:0px;
+    }    
+    .content:hover .dec{
+        display:block;
+    }
+    .dec{
+        display:none;
+        color: rgb(131, 7, 7);
+        writing-mode: vertical-lr;
+        background-color:none;
+        font-size:3em;
+        position:fixed;
+        top:100px;
+        left:0px;
+    }   
+    .wrench:hover .wre{
+        display:block;
+    }
+    .wre{
+        display:none;
+        color: rgb(131, 7, 7);
+        writing-mode: vertical-lr;
+        background-color:none;
+        font-size:3em;
+        position:fixed;
+        top:150px;
+        left:0px;
+    }   
+    /*================================================================= */
+    /*============================bone hand=============================*/
+    .hand-rotate{
+        position: fixed;
+        top: 231px;
+        left: 49px;
+        bottom: 0;
+        right: 0;
+        z-index: -999;  
+    }
+    .hand-rotate img {
+        min-height: 40%;
+        width: 85%;
+    }
+
+    /*===============font-awesome icon=========================*/
+    h1 {
+        font-family: "Menlo", monospace;
+        font-size: 22px;
+        font-weight: 400;
+        margin: 0;
+        color: #2f5876;
+      }
+
+      a:link,
+      a:visited {
+        color: #000000;
+        outline: 0;
+        text-decoration: none;
+      }
+
+      img {
+        width: 30px;
+      }
+
+      .modal-header {
+        align-items: center;
+        border-bottom: 0.5px solid #dadada;
+      }
+
+      .modal-content {
+        padding: 0 22px;
+      }
+
+      .modal-icons {
+        border-top: 0.5px solid #dadada;
+        height: 50px;
+        width: 100%;
+      }
+
+      .logo {
+        padding: 16px;
+      }
+
+      .logo-icon {
+        vertical-align: text-bottom;
+        margin-right: 12px;
+      }
+
+      .version {
+        color: #444;
+        font-size: 18px;
+      }
+
+      .flex-container {
+        display: flex;
+        justify-content: space-between;
+        padding: 10px 22px;
+      }
+
+      .flex {
+        opacity: 1;
+        transition: opacity 0.2s ease-in-out;
+        width: 120px;
+      }
+
+      .flex:hover {
+        opacity: 0.4;
+      }
+
+      .flex .fa {
+        font-size: 40px;
+        color: #2f5876;
+      }
+    /*============================show()==============================*/
+    #ggear {
+        display: none;
+    }
+    
+    /*=====================button position======================*/
+    .gear-position{
+        position:fixed;
+        top:50px;
+        left:30px;
+        display:none;
+    }
+    .content{
+        position:fixed;
+        top:245px;
+        left:97px;
+    }
+    .add{
+        position:fixed;
+        top:110px;
+        left:260px;
+    }
+    .cancel{
+        position:fixed;
+        top:190px;
+        left:260px;
+    }
+    .topic{
+        position:fixed;
+        top:10px;
+        left:100px;
+    }
+    .reel{
+        position:fixed;
+        top:260px;
+        left:260px;
+    }
+    .gear{
+        position:fixed;
+        top:25px;
+        left:32px;  
+    }
+    .bloody{
+        background-color:none;
+        font-size:35px;
+    }
+    .wrench{
+        position:fixed;
+        top:335px;
+        left:260px;
+    }
+    .power-off{
+        position:fixed;
+        top:40px;
+        left:205px;
+    }
+    .content{
+        position:fixed;
+        top:410px;
+        left:80px;
+    }
+    .state{
+        position:fixed;
+        top:70px;
+        left:25px;
+    }
+    .demo{
+        position: fixed;
+        top:100px;
+        left:100px;
+    }
+    .web{
+        position: fixed;
+        top:150px;
+        left:80px;
+    }
+    /*
+    .button {
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    padding: 12px 12px;
+    border: 0px solid #a12727;
+    border-radius: 100px;
+    background: #ff4a4a;
+    background: -webkit-gradient(linear, left top, left bottom, from(#ff4a4a), to(#992727));
+    background: -moz-linear-gradient(top, #ff4a4a, #992727);
+    background: linear-gradient(to bottom, #ff4a4a, #992727);
+    -webkit-box-shadow: #ff5959 0px 0px 40px 0px;
+    -moz-box-shadow: #ff5959 0px 0px 40px 0px;
+    box-shadow: #ff5959 0px 0px 40px 0px;
+    text-shadow: #591717 1px 1px 1px;
+    font: normal normal bold 5px times new roman;
+    color: #ffffff;
+    text-decoration: none;
+}
+.button:hover,
+.button:focus {
+    background: #ff5959;
+    background: -webkit-gradient(linear, left top, left bottom, from(#ff5959), to(#b62f2f));
+    background: -moz-linear-gradient(top, #ff5959, #b62f2f);
+    background: linear-gradient(to bottom, #ff5959, #b62f2f);
+    color: #ffffff;
+    text-decoration: none;
+}
+.button:active {
+    background: #982727;
+    background: -webkit-gradient(linear, left top, left bottom, from(#982727), to(#982727));
+    background: -moz-linear-gradient(top, #982727, #982727);
+    background: linear-gradient(to bottom, #982727, #982727);
+}
+.button:before{
+    content:  "\0000a0";
+    display: inline-block;
+    height: 24px;
+    width: 24px;
+    line-height: 24px;
+    margin: 0 4px -6px -4px;
+    position: relative;
+    top: -2px;
+    left: 5px;
+    background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAA7EAAAOxAGVKw4bAAABzklEQVRIiaWVv0oDQRDGfwYRSRFSyBWKjciRKrWkssgj+Ahi4RNZ2EiKFCFFqryCEHyE2AgpbEKagEYuFjuTm53shRMHJre78307f3Z2A9CoqTfAh+jNH3jhp8poxmNgKzquwOyNjymlMIDUuGmwzRr4BlBYB1bOgEfgE3gGfipwx8A9kAFPgvcB75WlA8wpy/Eg61OzNpW1B7M2F260n9aqEM2EfGUiubDRuAgvzPxKuJnBF5qBficmoi3wJgQSGSC2N8eZEB/0bnKb2Lxt7KkSNQTjndxaJ+rJtuEXkNsoKjJQfi4ctY98Bk1gZQAv7MshBwhH7SvZc2e8BlqGZOuoujb2NXGd9fxUWoRD35WoT1zDrosO9p8Kn0HX7dGHcFFSUrgvwCtweQCbFPW+cOt6wH/R3O2xwJToFFhSpjdwAdQZDwx/KXtGgKEBbAjXvq50hKP8oTWqgx7xIfmLVqVtYOa4PWOPWm3kgDOTSaoseWJzvWQND4bwtswdYUOo7x2hFbsyHriy6Iua4cT/E+UJJ3V0Trr7ogx0niXKdUhHwkl2mndg13uEjrAtbFtxSHmgSTmi/B+tBAEnhLflXOYL4B34PsCJIq2a/3v8C9oGt9GXOBM8AAAAAElFTkSuQmCC") no-repeat left center transparent;
+    background-size: 100% 100%;
+}
+ */
+ 
+    </style>
+
+ <meta charset="utf-8">  
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">  
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flat-ui/2.3.0/css/flat-ui.css">  
+ <link rel="stylesheet" type="text/css" href="extension.css">  
+ <script src="popup.js"></script>
+
+ <link href="https://fonts.googleapis.com/css?family=Open+Sans"
+    rel="stylesheet"
+    type="text/css"
+    />
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    rel="stylesheet"
+    integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+    crossorigin="anonymous"
+  />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <!---->
+    <div class="row demo-tiles">  
+    <div class="col-xs-3">  
+    <!--===================babckground========================-->
+    <!--
+    <div class="skull"><img src="image/skull.png"></div>-->
+    <div class="frame"><img src="image/frame.png"></div>
+    <div class="back"><img src="image/back.png"></div>
+    <div class="skull"><img src="image/state.png"></div>
+
+    
+    <!--======================skull whiper====================-->
+
+    <!--
+    <div class="make">0
+        <div class="hover">開啟它</div>
+    </div>-->
+    <!--============================power-off================================-->
+    <div class="power-off">
+        <div class="flex">
+            <button type="button" style="width:0px;height:0px;font-size:0px;border:0px 
+            blue none;;background-color:none;" id="power">
+            <i class="fa fa-power-off" style="color:rgb(99, 2, 2);font-size:55px"></i>
+            </button>
+        </div>
+       <div class="hover">開機關機</div>
+    </div>
+    
+    <div class="gear-position" id="web-address">不可能</div>
+    <!--============================hand-rotate================================-->
+    <!--
+        <div class="hand-rotate"><img src="image/hand-rotate.png"></div>
+    -->
+     <!--========================skull eyes=============================-->
+    <div class="content"> <input type="text" id="Address" style="font-size:15px" >
+        <div class="dec">輸入網址</div>
+    </div>
+    <!--<button type="button" style="width:40px;height:20px;font-size:10px" id:="create" >新增</button>
+        <button type="button" style="width:40px;height:20px;font-size:10px" id="delete">刪除</button>-->
+    <div class="add">
+        <div class="flex">
+            <button type="button" id="create"  style="width:0px;height:0px;font-size:0px;border:0px 
+            blue none;background-color: white;" id="create">
+            <i class="fa fa-plus" style="color:red;font-size:60px; "></i>
+            </button>
+        </div>
+        <div class="dis">新增</div>
+    </div>
+    <div class="cancel">
+        <div class="flex">
+            <button type="button" style="width:0px;height:0px;font-size:0px;border:0px 
+            blue none;background-color:white;" id="delete">
+            <i class="fa fa-minus" style="color:red;font-size:60px;"></i>
+            </button>
+        </div>
+        <div class="cal">刪除</div>
+    </div>
+    <!--=================================reel======================================-->
+    <!--<button type="button" style="width:40px;height:20px;font-size:10px;position:absolute;left:40px" 
+    id="txt">名單</button>-->
+    <div class="reel">
+        <div class="flex">
+            <button type="button" style="width:0px;height:0px;font-size:0px;border:0px 
+            blue none;background-color:white;" id="txt">
+              <i class="fa fa-book" style="color:rgb(173, 8, 160) ;font-size:60px"></i>
+            </button>
+        </div>
+        <div class="rel">豁免名單</div>
+    </div>
+    <!--===================================Add-killer====================================-->
+    <div class="topic">
+        <strong>
+            <font color="red" class="bloody">Ad killer </font> 
+        </strong>
+        <div class="tic">我是廣告殺手</div>
+    </div>
+    <div class="state" style = "font-size : 1px; color : black">work state </div>
+    <!--==================================gear========================================-->
+    <div class="gear" id = "ggear">
+        <div class="flex">
+            <a href="https://www.facebook.com/traversymedia" target="_blank">
+            <i class="fa fa-gear fa-spin" style="color:rgb(233, 229, 8);font-size:50px"></i>
+            </a>
+        </div>
+    </div>
+    <!--==============================================================================
+    <h1 style="font-size: 2px;">此網頁已刪除 個廣告</h1>
+    <p id="already">我的第18个段落</p>
+    -->
+    <!--
+    <div class ="demo">
+        <h1 style="font-size: 2px;">此網頁已刪除  <p id="demo">77</p> 個廣告</h1>
+    </div>
+    -->
+
+<body>
+    <div class = web>
+    <p style="font-size:1.5em;color:black">已刪除廣告:</p>
+    <p style="color:black">此網站已刪除</p>
+    <p><em id='totalId' style="color:red"></em>個廣告</p>
+    </div>
+</body>
+<!--</html>-->
+
+     <!--====================================tools==========================================-->
+     <div class="wrench">
+        <div class="flex">
+            <button type="button" id="Tool"  style="width:0px;height:0px;font-size:0px;border:0px 
+            blue none;background-color: white;" id="create">
+            <i class="fa fa-wrench" style="color:rgb(102, 100, 100);font-size:49px; "></i>
+            </button>
+        </div>
+        <div class="wre">使用說明</div>
+    </div>
+        <!--
+    <div class="row demo-tiles">  
+        <div class="col-xs-3">  
+            <div class="tile">  
+                <img src="image/Pastetooth128.png"  class="tile-image big-illustration">  
+                <h3 class="tile-title">AD KilL</h3>  
+                <p>19公分不含投</p>  
+            
+                <div class='popuptest'><buttom class="button" 
+                style="position:relative; left:180px; bottom: 200px;" id="power"></button> </div>
+                <h4 style="position:relative; left:180px; bottom: 160px; ">開機/關機</h4>
+                <p class='show' id=""></p>
+                <div class="content"> 豁免名單<input type="text" id="Address">
+                <button type="button" style="width:80px;height:40px;font-size:10px" id="create">新增</button>
+                <button type="button" style="width:80px;height:40px;font-size:10px" id="delete">刪除</button></div>
+                    
+                        
+                <button type="button" style="width:40px;height:20px;font-size:10px;position:absolute;left:40px"
+                 id="txt">名單</button>
+                <span  id="web-address">不可能</span>
+                        -->
+                    
+
+                    <!--最後一行 =====================================================-->
+    <script type="text/javascript" src="popup.js"></script> 
+    </body>
+
+    </html>

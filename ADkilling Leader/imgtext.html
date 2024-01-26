@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <title>titlename</title>
+    <script type="text/javascript">
+    function getgood(){
+      var abc = document.getElementsByTagName('a');
+      console.log(abc.length);
+      console.log(abc[0].nodeName);
+      var jkk=abc[1].getElementsByTagName('img');
+      console.log(jkk[0].nodeName);
+      console.log(jkk[0].getAttribute('src'));
+      var qu;
+      for(i=0;i<3;i++){
+      qu=abc[i].getAttribute('href');
+      var bad="https://ddmg.com.tw";
+      var alen=bad.length;
+      var ans=0;
+      for(j=0;j<alen;j++){
+        if(bad[j]==qu[j])ans++;
+      }
+      console.log('ans');
+      console.log(ans);
+      if(ans==alen){
+        abc[i].removeChild(abc[i].firstChild);
+      }
+    }
+    }
+    </script>
+  </head>
+  <body>
+    <h3><span>99</span>95059887</h3>
+    <a href="https://ddmg.com.tw/Learn/JavaScript/Base/DOM.html">
+    <img
+      src="http://wordpress.bestdaylong.com/wp-content/uploads/2019/07/%E7%8E%89%E5%85%8D%E5%90%83%E6%9C%88%E9%A4%85.jpg"
+      alt="031"
+    >
+    </a>
+    <button onclick="getgood();">按阿</button>
+    <a href="https://www.itread01.com/content/1500214822.html"><img
+      src="https://image.cache.storm.mg/styles/smg-800x533-fp/s3/media/image/2016/02/25/20160225-033457_U3927_M131923_2073.png?itok=fOdkVYDV"
+      alt="032"
+    /></a>
+    
+ <a href="https://www.google.com/search?q=%E5%9C%96%E7%89%87&tbm=isch&source=iu&ictx=1&fir=VdiNnV5v_ot5oM%252CPqHyZr3R3ueu8M%252C_&vet=1&usg=AI4_-kRWy278netoKlwpmI-50G0fCMiFXg&sa=X&ved=2ahUKEwif4eCJgsLwAhVLCqYKHQNGDukQ9QF6BAgTEAE&biw=1365&bih=969#imgrc=VdiNnV5v_ot5oM">
+   <img
+      src="http://wordpress.bestdaylong.com/wp-content/uploads/2019/07/%E7%8E%89%E5%85%8D%E5%90%83%E6%9C%88%E9%A4%85.jpg"
+      alt="033"
+    />
+    </a>
+    <h2>12334</h2>
+  </body>
+</html>

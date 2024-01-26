@@ -1,0 +1,186 @@
+\t (00:00:04) allegro 17.4 S035 Windows SPB 64-bit Edition
+\t (00:00:04)     Journal start - Sun Sep 17 09:32:03 2023
+\t (00:00:04)         Host=WINDOWS User=嘉 Pid=10684 CPUs=6
+\t (00:00:04) CmdLine= allegro.exe -proj D:/ORCAD ALLEGRO/PCB PROJECT/555-TIMER/555-TIMER.opj D:/orcad allegro/PCB Project/555-timer/allegro/555-timer.brd
+\t (00:00:04) 
+   (00:00:04) Loading axlcore.cxt 
+\t (00:00:07) Opening existing design...
+\i (00:00:07) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged "555-timer"
+\d (00:00:07) Design opened: D:/orcad allegro/PCB Project/555-timer/allegro/555-timer.brd
+\i (00:00:07) trapsize 1488
+\i (00:00:08) trapsize 1527
+\i (00:00:08) trapsize 1488
+\i (00:00:08) trapsize 1552
+\t (00:00:08) > Sending response DoneOpenBoard
+\i (00:00:08) generaledit 
+\i (00:00:09) zoom in 1 
+\i (00:00:09) setwindow pcb
+\i (00:00:09) zoom in 8100.34 5481.45
+\i (00:00:09) trapsize 776
+\i (00:00:09) zoom in 1 
+\i (00:00:09) setwindow pcb
+\i (00:00:09) zoom in 8056.88 5476.80
+\i (00:00:09) trapsize 388
+\i (00:00:09) zoom in 1 
+\i (00:00:09) setwindow pcb
+\i (00:00:09) zoom in 8039.03 5472.14
+\i (00:00:09) trapsize 194
+\i (00:00:10) zoom out 1 
+\i (00:00:10) setwindow pcb
+\i (00:00:10) zoom out 7941.24 5387.54
+\i (00:00:10) trapsize 388
+\i (00:00:10) zoom out 1 
+\i (00:00:10) setwindow pcb
+\i (00:00:10) zoom out 7939.69 5385.99
+\i (00:00:10) trapsize 776
+\i (00:00:10) zoom out 1 
+\i (00:00:10) setwindow pcb
+\i (00:00:10) zoom out 7938.13 5384.43
+\i (00:00:10) trapsize 1552
+\i (00:00:10) zoom in 1 
+\i (00:00:10) setwindow pcb
+\i (00:00:10) zoom in 7885.36 5362.71
+\i (00:00:10) trapsize 776
+\i (00:00:10) zoom in 1 
+\i (00:00:10) setwindow pcb
+\i (00:00:10) zoom in 7865.18 5342.53
+\i (00:00:10) trapsize 388
+\i (00:00:11) pick grid 7878.38 5350.29
+\t (00:00:11) last pick:  7875.00 5350.00
+\i (00:00:15) zoom in 1 
+\i (00:00:15) setwindow pcb
+\i (00:00:15) zoom in 7886.92 5348.74
+\i (00:00:15) trapsize 194
+\i (00:00:16) zoom out 1 
+\i (00:00:16) setwindow pcb
+\i (00:00:16) zoom out 7884.59 5347.96
+\i (00:00:16) trapsize 388
+\i (00:00:16) zoom out 1 
+\i (00:00:16) setwindow pcb
+\i (00:00:16) zoom out 7884.59 5347.97
+\i (00:00:16) trapsize 776
+\i (00:00:16) zoom out 1 
+\i (00:00:16) setwindow pcb
+\i (00:00:16) zoom out 7883.04 5346.41
+\i (00:00:16) trapsize 1552
+\i (00:00:17) zoom in 1 
+\i (00:00:17) setwindow pcb
+\i (00:00:17) zoom in 7845.79 5184.97
+\i (00:00:17) trapsize 776
+\i (00:00:17) zoom in 1 
+\i (00:00:17) setwindow pcb
+\i (00:00:17) zoom in 7845.79 5180.31
+\i (00:00:17) trapsize 388
+\i (00:00:17) zoom in 1 
+\i (00:00:17) setwindow pcb
+\i (00:00:17) zoom in 7845.79 5177.98
+\i (00:00:17) trapsize 194
+\i (00:00:18) prepopup 7881.11 5319.63
+\i (00:00:30) pick grid 8008.79 5221.45
+\t (00:00:30) last pick:  8000.00 5225.00
+\i (00:00:32) open 
+\e (00:00:32) Do you want to save the changes you made to 555-timer.brd?
+\i (00:00:35) fillin menu_cancel 
+\i (00:00:35) generaledit 
+\i (00:00:35) prepopup 7881.50 5358.44
+\i (00:00:40) pick grid 7860.93 5361.55
+\t (00:00:40) last pick:  7850.00 5350.00
+\i (00:00:40) prepopup 7860.93 5361.55
+\i (00:00:41) pop dyn_option_select @:@Copy 
+\i (00:00:41) copy 
+\t (00:00:41) last pick:  7850.00 5350.00
+\t (00:00:41) last pick:  7850.00 5350.00
+\i (00:00:41) paste 
+\i (00:00:42) zoom out 1 
+\i (00:00:42) setwindow pcb
+\i (00:00:42) zoom out 7873.35 5352.62
+\i (00:00:42) trapsize 388
+\i (00:00:42) zoom out 1 
+\i (00:00:42) setwindow pcb
+\i (00:00:42) zoom out 7888.10 5344.08
+\i (00:00:42) trapsize 776
+\i (00:00:42) zoom out 1 
+\i (00:00:42) setwindow pcb
+\i (00:00:42) zoom out 7947.08 5316.15
+\i (00:00:42) trapsize 1552
+\i (00:00:43) pick grid 8363.10 4977.74
+\t (00:00:43) last pick:  8375.00 4975.00
+\i (00:00:43) prepopup 8369.31 4968.43
+\i (00:00:46) done 
+\i (00:00:46) generaledit 
+\i (00:00:46) zoom in 1 
+\i (00:00:46) setwindow pcb
+\i (00:00:46) zoom in 8369.31 4962.22
+\i (00:00:46) trapsize 776
+\i (00:00:46) zoom in 1 
+\i (00:00:46) setwindow pcb
+\i (00:00:46) zoom in 8369.31 4960.67
+\i (00:00:46) trapsize 388
+\i (00:00:46) zoom in 1 
+\i (00:00:46) setwindow pcb
+\i (00:00:46) zoom in 8369.32 4960.68
+\i (00:00:46) trapsize 194
+\i (00:00:47) zoom out 1 
+\i (00:00:47) setwindow pcb
+\i (00:00:47) zoom out 8372.04 4964.56
+\i (00:00:47) trapsize 388
+\i (00:00:47) zoom out 1 
+\i (00:00:47) setwindow pcb
+\i (00:00:47) zoom out 8372.03 4964.56
+\i (00:00:47) trapsize 776
+\i (00:00:48) drag_start grid 8238.53 5115.13
+\i (00:00:48) drag_stop 8584.70 4843.47
+\i (00:00:49) prepopup 8378.24 4950.58
+\i (00:00:50) pop dyn_option_select @:@Delete 
+\i (00:00:50) delete 
+\i (00:00:50) generaledit 
+\i (00:00:50) zoom in 1 
+\i (00:00:50) setwindow pcb
+\i (00:00:50) zoom in 7785.26 4869.86
+\i (00:00:50) trapsize 388
+\i (00:00:50) zoom in 1 
+\i (00:00:50) setwindow pcb
+\i (00:00:50) zoom in 7778.28 4929.63
+\i (00:00:50) trapsize 194
+\i (00:00:50) zoom in 1 
+\i (00:00:50) setwindow pcb
+\i (00:00:50) zoom in 7778.28 4984.35
+\i (00:00:50) trapsize 97
+\i (00:00:51) zoom out 1 
+\i (00:00:51) setwindow pcb
+\i (00:00:51) zoom out 7781.97 4981.83
+\i (00:00:51) trapsize 194
+\i (00:00:51) zoom out 1 
+\i (00:00:51) setwindow pcb
+\i (00:00:51) zoom out 7783.52 4978.72
+\i (00:00:51) trapsize 388
+\i (00:00:51) zoom out 1 
+\i (00:00:51) setwindow pcb
+\i (00:00:51) zoom out 7792.05 4977.95
+\i (00:00:51) trapsize 776
+\i (00:00:51) zoom out 1 
+\i (00:00:51) setwindow pcb
+\i (00:00:51) zoom out 7875.87 5095.92
+\i (00:00:51) trapsize 1552
+\i (00:00:52) pick grid 7841.73 5362.92
+\t (00:00:52) last pick:  7850.00 5375.00
+\i (00:00:58) zoom in 1 
+\i (00:00:58) setwindow pcb
+\i (00:00:58) zoom in 7860.35 5393.97
+\i (00:00:58) trapsize 776
+\i (00:00:58) zoom in 1 
+\i (00:00:58) setwindow pcb
+\i (00:00:58) zoom in 7860.35 5393.98
+\i (00:00:58) trapsize 388
+\i (00:00:59) zoom in 1 
+\i (00:00:59) setwindow pcb
+\i (00:00:59) zoom in 7860.35 5389.32
+\i (00:00:59) trapsize 194
+\i (00:01:00) zoom out 1 
+\i (00:01:00) setwindow pcb
+\i (00:01:00) zoom out 7860.35 5387.38
+\i (00:01:00) trapsize 388
+\i (00:01:06) exit 
+\e (00:01:06) Do you want to save the changes you made to 555-timer.brd?
+\i (00:01:07) fillin no 
+\t (00:01:09)     Journal end - Sun Sep 17 09:33:07 2023

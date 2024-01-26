@@ -1,0 +1,48 @@
+[0903/224012.631:ERROR:gpu_process_transport_factory.cc(990)] Lost UI shared context.
+[0903/224012.637:ERROR:browser_context_impl.cc(252)] The cache_path directory could not be created: C:\Users\￥ﾘﾉ\AppData\Local\Temp\CEF\
+[0903/224015.283:ERROR:viz_main_impl.cc(184)] Exiting GPU process due to errors during initialization
+[0903/224018.032:INFO:CONSOLE(0)] "Using unescaped '#' characters in a data URI body is deprecated and will be removed in M71, around December 2018. Please use '%23' instead. See https://www.chromestatus.com/features/5656049583390720 for more details.", source:  (0)
+[0903/224018.471:INFO:CONSOLE(6)] "UF: Pollyfill not needed, skipping.", source: https://content.cdntwrk.com/components/website-widget/v1/85433/widget.js (6)
+[0906/151313.441:ERROR:viz_main_impl.cc(184)] Exiting GPU process due to errors during initialization
+[0906/151351.005:ERROR:viz_main_impl.cc(184)] Exiting GPU process due to errors during initialization
+[0907/214309.066:ERROR:gpu_process_transport_factory.cc(990)] Lost UI shared context.
+[0907/214309.084:ERROR:browser_context_impl.cc(252)] The cache_path directory could not be created: C:\Users\￥ﾘﾉ\AppData\Local\Temp\CEF\
+[0907/214311.656:ERROR:viz_main_impl.cc(184)] Exiting GPU process due to errors during initialization
+[0907/214313.680:INFO:CONSOLE(0)] "Using unescaped '#' characters in a data URI body is deprecated and will be removed in M71, around December 2018. Please use '%23' instead. See https://www.chromestatus.com/features/5656049583390720 for more details.", source:  (0)
+[0907/214313.712:INFO:CONSOLE(6)] "UF: Pollyfill not needed, skipping.", source: https://content.cdntwrk.com/components/website-widget/v1/85433/widget.js (6)
+[0907/214332.616:INFO:CONSOLE(1579)] "doSizing: 1.501220703125ms", source: file:///D:/orcad%20allegro/Cadence/SPB_17.4/share/pcb/quickview/quickview.js (1579)
+[0907/214332.630:INFO:CONSOLE(1579)] "doSizing: 13.780029296875ms", source: file:///D:/orcad%20allegro/Cadence/SPB_17.4/share/pcb/quickview/quickview.js (1579)
+[0907/214332.630:INFO:CONSOLE(496)] "initFootprintViewer: 18.89306640625ms", source: file:///D:/orcad%20allegro/Cadence/SPB_17.4/share/pcb/quickview/quickview.js (496)
+[0907/214336.098:INFO:CONSOLE(1579)] "doSizing: 0.69287109375ms", source: file:///D:/orcad%20allegro/Cadence/SPB_17.4/share/pcb/quickview/quickview.js (1579)
+[0907/214336.103:INFO:CONSOLE(1579)] "doSizing: 6.030029296875ms", source: file:///D:/orcad%20allegro/Cadence/SPB_17.4/share/pcb/quickview/quickview.js (1579)
+[0907/214336.104:INFO:CONSOLE(496)] "initFootprintViewer: 7.88134765625ms", source: file:///D:/orcad%20allegro/Cadence/SPB_17.4/share/pcb/quickview/quickview.js (496)
+[0907/214338.597:INFO:CONSOLE(1579)] "doSizing: 0.65283203125ms", source: file:///D:/orcad%20allegro/Cadence/SPB_17.4/share/pcb/quickview/quickview.js (1579)
+[0907/214338.602:INFO:CONSOLE(1579)] "doSizing: 4.4482421875ms", source: file:///D:/orcad%20allegro/Cadence/SPB_17.4/share/pcb/quickview/quickview.js (1579)
+[0907/214338.602:INFO:CONSOLE(496)] "initFootprintViewer: 6.239990234375ms", source: file:///D:/orcad%20allegro/Cadence/SPB_17.4/share/pcb/quickview/quickview.js (496)
+[0907/214340.550:INFO:CONSOLE(1579)] "doSizing: 0.627197265625ms", source: file:///D:/orcad%20allegro/Cadence/SPB_17.4/share/pcb/quickview/quickview.js (1579)
+[0907/214340.557:INFO:CONSOLE(1579)] "doSizing: 4.2138671875ms", source: file:///D:/orcad%20allegro/Cadence/SPB_17.4/share/pcb/quickview/quickview.js (1579)
+[0907/214340.557:INFO:CONSOLE(496)] "initFootprintViewer: 5.98095703125ms", source: file:///D:/orcad%20allegro/Cadence/SPB_17.4/share/pcb/quickview/quickview.js (496)
+[0907/214341.400:INFO:CONSOLE(1579)] "doSizing: 0.5751953125ms", source: file:///D:/orcad%20allegro/Cadence/SPB_17.4/share/pcb/quickview/quickview.js (1579)
+[0907/214341.407:INFO:CONSOLE(1579)] "doSizing: 4.09521484375ms", source: file:///D:/orcad%20allegro/Cadence/SPB_17.4/share/pcb/quickview/quickview.js (1579)
+[0907/214341.407:INFO:CONSOLE(496)] "initFootprintViewer: 5.785888671875ms", source: file:///D:/orcad%20allegro/Cadence/SPB_17.4/share/pcb/quickview/quickview.js (496)
+[0907/214344.052:INFO:CONSOLE(1579)] "doSizing: 0.62109375ms", source: file:///D:/orcad%20allegro/Cadence/SPB_17.4/share/pcb/quickview/quickview.js (1579)
+[0907/214344.059:INFO:CONSOLE(1579)] "doSizing: 4.343994140625ms", source: file:///D:/orcad%20allegro/Cadence/SPB_17.4/share/pcb/quickview/quickview.js (1579)
+[0907/214344.059:INFO:CONSOLE(496)] "initFootprintViewer: 6.23193359375ms", source: file:///D:/orcad%20allegro/Cadence/SPB_17.4/share/pcb/quickview/quickview.js (496)
+[0907/214345.190:INFO:CONSOLE(1579)] "doSizing: 0.57275390625ms", source: file:///D:/orcad%20allegro/Cadence/SPB_17.4/share/pcb/quickview/quickview.js (1579)
+[0907/214345.195:INFO:CONSOLE(1579)] "doSizing: 5.387939453125ms", source: file:///D:/orcad%20allegro/Cadence/SPB_17.4/share/pcb/quickview/quickview.js (1579)
+[0907/214345.195:INFO:CONSOLE(496)] "initFootprintViewer: 7.273193359375ms", source: file:///D:/orcad%20allegro/Cadence/SPB_17.4/share/pcb/quickview/quickview.js (496)
+[0907/214347.174:INFO:CONSOLE(1579)] "doSizing: 0.6220703125ms", source: file:///D:/orcad%20allegro/Cadence/SPB_17.4/share/pcb/quickview/quickview.js (1579)
+[0907/214347.176:INFO:CONSOLE(1579)] "doSizing: 3.93017578125ms", source: file:///D:/orcad%20allegro/Cadence/SPB_17.4/share/pcb/quickview/quickview.js (1579)
+[0907/214347.176:INFO:CONSOLE(496)] "initFootprintViewer: 5.86474609375ms", source: file:///D:/orcad%20allegro/Cadence/SPB_17.4/share/pcb/quickview/quickview.js (496)
+[0907/214348.367:INFO:CONSOLE(1579)] "doSizing: 2.5830078125ms", source: file:///D:/orcad%20allegro/Cadence/SPB_17.4/share/pcb/quickview/quickview.js (1579)
+[0907/214349.355:INFO:CONSOLE(1579)] "doSizing: 0.648193359375ms", source: file:///D:/orcad%20allegro/Cadence/SPB_17.4/share/pcb/quickview/quickview.js (1579)
+[0907/214349.360:INFO:CONSOLE(1579)] "doSizing: 4.0400390625ms", source: file:///D:/orcad%20allegro/Cadence/SPB_17.4/share/pcb/quickview/quickview.js (1579)
+[0907/214349.361:INFO:CONSOLE(496)] "initFootprintViewer: 5.843017578125ms", source: file:///D:/orcad%20allegro/Cadence/SPB_17.4/share/pcb/quickview/quickview.js (496)
+[0907/214356.698:INFO:CONSOLE(1579)] "doSizing: 0.591064453125ms", source: file:///D:/orcad%20allegro/Cadence/SPB_17.4/share/pcb/quickview/quickview.js (1579)
+[0907/214356.707:INFO:CONSOLE(1579)] "doSizing: 4.1669921875ms", source: file:///D:/orcad%20allegro/Cadence/SPB_17.4/share/pcb/quickview/quickview.js (1579)
+[0907/214356.707:INFO:CONSOLE(496)] "initFootprintViewer: 6.14404296875ms", source: file:///D:/orcad%20allegro/Cadence/SPB_17.4/share/pcb/quickview/quickview.js (496)
+[0917/093154.571:ERROR:gpu_process_transport_factory.cc(990)] Lost UI shared context.
+[0917/093154.586:ERROR:browser_context_impl.cc(252)] The cache_path directory could not be created: C:\Users\￥ﾘﾉ\AppData\Local\Temp\CEF\
+[0917/093156.095:ERROR:viz_main_impl.cc(184)] Exiting GPU process due to errors during initialization
+[0917/093200.437:INFO:CONSOLE(0)] "Using unescaped '#' characters in a data URI body is deprecated and will be removed in M71, around December 2018. Please use '%23' instead. See https://www.chromestatus.com/features/5656049583390720 for more details.", source:  (0)
+[0917/093200.479:INFO:CONSOLE(6)] "UF: Pollyfill not needed, skipping.", source: https://content.cdntwrk.com/components/website-widget/v1/85433/widget.js (6)

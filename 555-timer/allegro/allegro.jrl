@@ -1,0 +1,200 @@
+\t (00:00:04) allegro 17.4 S035 Windows SPB 64-bit Edition
+\t (00:00:04)     Journal start - Sun Sep 17 09:49:36 2023
+\t (00:00:04)         Host=WINDOWS User=嘉 Pid=12168 CPUs=6
+\t (00:00:04) CmdLine= allegro.exe -proj D:/ORCAD ALLEGRO/PCB PROJECT/555-TIMER/555-TIMER.opj D:/orcad allegro/PCB Project/555-timer/allegro/555-timer.brd
+\t (00:00:04) 
+   (00:00:04) Loading axlcore.cxt 
+\t (00:00:07) Opening existing design...
+\i (00:00:07) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged "555-timer"
+\d (00:00:07) Design opened: D:/orcad allegro/PCB Project/555-timer/allegro/555-timer.brd
+\i (00:00:07) trapsize 1488
+\i (00:00:08) trapsize 1527
+\i (00:00:08) trapsize 1488
+\i (00:00:08) trapsize 1552
+\t (00:00:08) > Sending response DoneOpenBoard
+\i (00:00:08) generaledit 
+\i (00:00:11) pick grid 7889.23 5357.27
+\t (00:00:11) last pick:  7900.00 5350.00
+\i (00:00:12) prepopup 7889.23 5357.27
+\i (00:00:13) pop dyn_option_select @:@Move 
+\i (00:00:13) move 
+\t (00:00:13) last pick:  7900.00 5350.00
+\t (00:00:13) last pick:  7874.50 5351.00
+\t (00:00:13) Pick new location for the element(s).
+\i (00:00:16) prepopup 7876.81 5341.74
+\i (00:00:19) done 
+\i (00:00:19) generaledit 
+\i (00:00:21) prepopup 7901.65 5360.37
+\i (00:00:22) pop dyn_option_select @:@Move 
+\i (00:00:22) move 
+\t (00:00:22) last pick:  7900.00 5350.00
+\t (00:00:22) last pick:  7874.50 5351.00
+\t (00:00:22) Pick new location for the element(s).
+\i (00:00:25) pick grid 7876.81 5338.64
+\t (00:00:25) last pick:  7875.00 5350.00
+\i (00:00:25) generaledit 
+\i (00:00:27) pick grid 7799.20 5307.59
+\t (00:00:27) last pick:  7800.00 5300.00
+\i (00:00:27) pick grid 7957.53 5316.91
+\t (00:00:27) last pick:  7950.00 5325.00
+\i (00:00:29) zoom in 1 
+\i (00:00:29) setwindow pcb
+\i (00:00:29) zoom in 7904.75 5366.58
+\i (00:00:29) trapsize 776
+\i (00:00:29) zoom in 1 
+\i (00:00:29) setwindow pcb
+\i (00:00:29) zoom in 7904.75 5366.58
+\i (00:00:29) trapsize 388
+\i (00:00:29) zoom in 1 
+\i (00:00:29) setwindow pcb
+\i (00:00:29) zoom in 7904.76 5366.58
+\i (00:00:29) trapsize 194
+\i (00:00:30) zoom in 1 
+\i (00:00:30) setwindow pcb
+\i (00:00:30) zoom in 7904.76 5366.58
+\i (00:00:30) trapsize 97
+\i (00:00:30) zoom out 1 
+\i (00:00:30) setwindow pcb
+\i (00:00:30) zoom out 7904.76 5366.58
+\i (00:00:30) trapsize 194
+\i (00:00:30) zoom out 1 
+\i (00:00:30) setwindow pcb
+\i (00:00:30) zoom out 7904.77 5366.59
+\i (00:00:30) trapsize 388
+\i (00:00:30) zoom out 1 
+\i (00:00:30) setwindow pcb
+\i (00:00:30) zoom out 7904.77 5366.59
+\i (00:00:30) trapsize 776
+\i (00:00:30) zoom out 1 
+\i (00:00:30) setwindow pcb
+\i (00:00:30) zoom out 7904.78 5366.58
+\i (00:00:30) trapsize 1552
+\i (00:00:30) zoom in 1 
+\i (00:00:30) setwindow pcb
+\i (00:00:30) zoom in 7904.77 5366.58
+\i (00:00:30) trapsize 776
+\i (00:00:31) zoom out 1 
+\i (00:00:31) setwindow pcb
+\i (00:00:31) zoom out 7904.78 5366.58
+\i (00:00:31) trapsize 1552
+\i (00:00:31) zoom in 1 
+\i (00:00:31) setwindow pcb
+\i (00:00:31) zoom in 8001.02 5279.65
+\i (00:00:31) trapsize 776
+\i (00:00:32) zoom in 1 
+\i (00:00:32) setwindow pcb
+\i (00:00:32) zoom in 8001.02 5279.65
+\i (00:00:32) trapsize 388
+\i (00:00:32) zoom out 1 
+\i (00:00:32) setwindow pcb
+\i (00:00:32) zoom out 8001.02 5279.65
+\i (00:00:32) trapsize 776
+\i (00:00:32) zoom out 1 
+\i (00:00:32) setwindow pcb
+\i (00:00:32) zoom out 8001.03 5279.65
+\i (00:00:32) trapsize 1552
+\i (00:00:33) zoom in 1 
+\i (00:00:33) setwindow pcb
+\i (00:00:33) zoom in 9643.41 5183.41
+\i (00:00:33) trapsize 776
+\i (00:00:33) zoom out 1 
+\i (00:00:33) setwindow pcb
+\i (00:00:33) zoom out 8713.56 5212.91
+\i (00:00:33) trapsize 1552
+\i (00:00:34) zoom in 1 
+\i (00:00:34) setwindow pcb
+\i (00:00:34) zoom in 7754.21 5237.74
+\i (00:00:34) trapsize 776
+\i (00:00:34) zoom in 1 
+\i (00:00:34) setwindow pcb
+\i (00:00:34) zoom in 7757.32 5240.85
+\i (00:00:34) trapsize 388
+\i (00:00:35) prepopup 7870.64 5318.47
+\i (00:00:36) pick grid 7730.15 5500.87
+\t (00:00:36) last pick:  7725.00 5500.00
+\i (00:00:37) zoom out 1 
+\i (00:00:37) setwindow pcb
+\i (00:00:37) zoom out 7791.47 5490.00
+\i (00:00:37) trapsize 776
+\i (00:00:37) zoom out 1 
+\i (00:00:37) setwindow pcb
+\i (00:00:37) zoom out 7800.78 5482.24
+\i (00:00:37) trapsize 1552
+\i (00:00:39) roam y -96 
+\i (00:00:39) roam y -96
+\i (00:00:40) roam y -96 
+\i (00:00:40) roam y -96
+\i (00:00:40) roam y -96 
+\i (00:00:40) roam y -96
+\i (00:00:42) zoom fit 
+\i (00:00:42) trapsize 761
+\i (00:00:43) prepopup 7868.33 6517.87
+\i (00:00:44) prepopup 7816.60 6537.65
+\i (00:00:46) pick grid 7854.64 6606.12
+\t (00:00:46) last pick:  7850.00 6600.00
+\i (00:00:47) prepopup 7866.81 6555.91
+\i (00:01:09) pick grid 7681.18 6502.66
+\t (00:01:09) last pick:  7675.00 6500.00
+\i (00:01:18) add circle 
+\t (00:01:18) Pick center point of the circle.
+\t (00:01:18) Pick center point of the circle.
+\i (00:01:18) pick grid 7700.96 6499.61
+\t (00:01:18) last pick:  7700.00 6500.00
+\t (00:01:18) Pick a perimeter point on the circle.
+\i (00:01:21) pick grid 7739.00 6460.05
+\t (00:01:21) last pick:  7750.00 6450.00
+\t (00:01:21) Pick center point of the circle.
+\i (00:01:22) prepopup 7740.52 6555.91
+\i (00:01:23) pick grid 7728.35 6572.65
+\t (00:01:23) last pick:  7725.00 6575.00
+\t (00:01:23) Pick a perimeter point on the circle.
+\i (00:01:24) prepopup 7737.48 6565.04
+\i (00:01:25) pick grid 7728.35 6572.65
+\t (00:01:25) last pick:  7725.00 6575.00
+\w (00:01:25) WARNING(SPMHA2-51): Pick equals previous pick ... pick again.
+\i (00:01:26) prepopup 7745.09 6555.91
+\i (00:01:28) cancel 
+\i (00:01:28) generaledit 
+\i (00:01:29) pick grid 7672.05 6584.82
+\t (00:01:29) last pick:  7675.00 6575.00
+\i (00:01:47) done 
+\i (00:01:47) place manual 
+\i (00:01:47) setwindow form.plc_manual
+\i (00:01:47) FORM plc_manual tree  'Components by refdes' 
+\i (00:01:47) setwindow pcb
+\i (00:01:47) setwindow form.plc_manual 
+\i (00:01:47) setwindow form.plc_manual
+\i (00:01:47) FORM plc_manual advanced_settings 
+\i (00:01:47) FORM plc_manual advanced_settings  
+\i (00:01:47) FORM plc_manual library YES 
+\i (00:01:47) FORM plc_manual library YES 
+\i (00:01:47) FORM plc_manual placement_list 
+\i (00:01:47) FORM plc_manual placement_list  
+\i (00:01:47) FORM plc_manual categories Mechanical symbols 
+\i (00:01:47) FORM plc_manual categories 'Mechanical symbols' 
+\i (00:01:47) trapsize 761
+\i (00:01:50) FORM plc_manual tree  CROP 'Mechanical symbols' 
+\i (00:01:50) FORM plc_manual tree 'MULTISEL YES' CROP 'Mechanical symbols' 
+\e (00:01:50) Cannot load symbol 'CROP'
+\i (00:01:52) FORM plc_manual tree 'MULTISEL NO' CROP 'Mechanical symbols' 
+\i (00:01:54) FORM plc_manual tree  EUROD 'Mechanical symbols' 
+\i (00:01:54) FORM plc_manual tree 'MULTISEL YES' EUROD 'Mechanical symbols' 
+\i (00:01:55) FORM plc_manual tree  EUROS 'Mechanical symbols' 
+\i (00:01:55) FORM plc_manual tree 'MULTISEL YES' EUROS 'Mechanical symbols' 
+\i (00:01:56) FORM plc_manual tree  EUROD 'Mechanical symbols' 
+\i (00:01:57) FORM plc_manual tree 'MULTISEL NO' EUROD 'Mechanical symbols' 
+\i (00:01:57) FORM plc_manual tree  EUROS 'Mechanical symbols' 
+\i (00:01:57) FORM plc_manual tree 'MULTISEL NO' EUROS 'Mechanical symbols' 
+\i (00:01:58) FORM plc_manual tree  IBM 'Mechanical symbols' 
+\i (00:01:58) FORM plc_manual tree  MOIRE 'Mechanical symbols' 
+\i (00:01:59) FORM plc_manual tree  MTG125 'Mechanical symbols' 
+\i (00:02:01) FORM plc_manual tree  MTG156 'Mechanical symbols' 
+\i (00:02:01) FORM plc_manual tree  MTG250 'Mechanical symbols' 
+\i (00:02:02) FORM plc_manual tree  MULTIBUS 'Mechanical symbols' 
+\i (00:02:03) FORM plc_manual cancel  
+\i (00:02:03) setwindow pcb
+\i (00:02:03) generaledit 
+\i (00:02:04) exit 
+\e (00:02:04) Do you want to save the changes you made to 555-timer.brd?
+\i (00:02:05) fillin no 
+\t (00:02:06)     Journal end - Sun Sep 17 09:51:38 2023
